@@ -1,0 +1,40 @@
+const personsMock = [
+  {
+    document: "123456789",
+    name: "John Brown",
+    address: "New York No. 1 Lake Park",
+    phone: "111-222-333",
+    email: "john@123.com",
+    birthDate: new Date(),
+    city: "New York",
+    state: "NY",
+    country: "USA",
+    zip: "10001",
+  },
+  {
+    document: "123456789",
+    name: "Jim Green",
+    address: "New York No. 1 Lake Park",
+    phone: "111-222-333",
+    email: "john@123.com",
+    birthDate: new Date(),
+    city: "Los Angeles",
+    state: "CA",
+    country: "USA",
+    zip: "10001",
+  },
+  {
+    document: "123456789",
+    name: "Joe Black",
+    address: "New York No. 1 Lake Park",
+    phone: "111-222-333",
+    email: "john@123.com",
+    birthDate: new Date(),
+    city: "Washington",
+    state: "NY",
+    country: "USA",
+    zip: "10001",
+  },
+];
+
+export { personsMock };
