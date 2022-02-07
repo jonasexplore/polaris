@@ -1,0 +1,1 @@
+export { SideMenuDashboard } from './dashboard/SideMenu'
