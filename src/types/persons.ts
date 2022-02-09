@@ -3,11 +3,11 @@ export type Person = {
   document: string;
   name: string;
   email: string;
-  birthDate: Date;
-  phone: string;
-  address: string;
-  city: string;
-  state: string;
-  country: string;
-  zip: string;
+  birthDate?: string;
+  phone?: string;
+  address?: string;
+  city?: string;
+  state?: string;
+  country?: string;
+  zip?: string;
 };
