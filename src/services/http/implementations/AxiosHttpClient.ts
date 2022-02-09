@@ -11,11 +11,11 @@ class AxiosHttpClient implements IHttpClient {
   private errorHandler = (error: any) => {
     if (error && error.status === 401) {
       return error.data;
-    } else {
-      return {
-        message: error.data.message,
-      };
     }
+
+    return {
+      message: error.data.message,
+    };
   };
 
   public get({ url, headers }: httpRequest): Promise<any> {
