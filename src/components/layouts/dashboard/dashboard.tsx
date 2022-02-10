@@ -7,6 +7,7 @@ import { SideMenuDashboard } from "../../menus"
 import { PersonsProvider } from "../../../contexts/persons"
 import { EmolumentsTable } from "../../tables/emoluments/EmolumentsTable"
 import { CardsOptions } from "../../cards/birth/CardsOptions"
+import { CitiesProvider } from "../../../contexts/cities"
 
 const { Sider, Content } = Layout
 

@@ -22,6 +22,7 @@ export type Birth = {
   county: string;
   complementAddressAffiliation: string;
   dnv: string;
+  nonDnv: string;
   affiliation: Affiliation[];
   birthTime: string; // hh:mm
   securityPrint: {
@@ -66,7 +67,6 @@ export type Birth = {
   country: string;
   city: string;
   birthPlace: BirthPlace;
-  nonDnv: string; // Sim ou Não
 };
 
 type Affiliation = {
